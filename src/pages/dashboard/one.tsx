@@ -163,7 +163,7 @@ function OverviewView() {
                   size="small"
                   variant="contained"
                   startIcon={<AddIcon />}
-                  onClick={() => navigate('/billing')}
+                  onClick={() => navigate('/customer/billing')}
                 >
                   Add credit
                 </Button>
@@ -180,7 +180,7 @@ function OverviewView() {
                 <Button
                   size="small"
                   variant="outlined"
-                  onClick={() => navigate('/purchases')}
+                  onClick={() => navigate('/customer/purchases')}
                   endIcon={<ArrowForwardIosIcon />}
                 >
                   Manage
@@ -195,7 +195,7 @@ function OverviewView() {
               label="Profile Completeness"
               value={`${profileProgress}%`}
               cta={
-                <IconButton onClick={() => navigate('/settings')} aria-label="settings">
+                <IconButton onClick={() => navigate('/customer/settings')} aria-label="settings">
                   <ArrowForwardIosIcon fontSize="small" />
                 </IconButton>
               }
@@ -233,7 +233,7 @@ function OverviewView() {
                   fullWidth
                   variant="contained"
                   startIcon={<SimCardDownloadIcon />}
-                  onClick={() => navigate('/purchases')}
+                  onClick={() => navigate('/customer/purchases')}
                 >
                   Buy eSIM / Package
                 </Button>
@@ -241,7 +241,7 @@ function OverviewView() {
                   fullWidth
                   variant="outlined"
                   startIcon={<ReceiptLongIcon />}
-                  onClick={() => navigate('/billing')}
+                  onClick={() => navigate('/customer/billing')}
                 >
                   Go to Billing
                 </Button>
@@ -249,7 +249,7 @@ function OverviewView() {
                   fullWidth
                   variant="text"
                   startIcon={<SettingsIcon />}
-                  onClick={() => navigate('/settings')}
+                  onClick={() => navigate('/customer/settings')}
                 >
                   Profile & Settings
                 </Button>
@@ -265,7 +265,7 @@ function OverviewView() {
               title="Recent Purchases"
               subheader="Last 3 orders"
               actionLabel="All purchases"
-              onAction={() => navigate('/purchases')}
+              onAction={() => navigate('/customer/purchases')}
             >
               <List dense disablePadding>
                 {MOCK_PURCHASES.map((p) => (
@@ -306,7 +306,7 @@ function OverviewView() {
               title="Recent Bills"
               subheader="Latest invoices"
               actionLabel="All billing"
-              onAction={() => navigate('/billing')}
+              onAction={() => navigate('/customer/billing')}
             >
               <List dense disablePadding>
                 {MOCK_BILLS.map((b) => (
@@ -364,7 +364,7 @@ function OverviewView() {
                     <Button
                       variant="outlined"
                       endIcon={<ArrowForwardIosIcon />}
-                      onClick={() => navigate('/settings')}
+                      onClick={() => navigate('/customer/settings')}
                     >
                       Complete profile
                     </Button>
