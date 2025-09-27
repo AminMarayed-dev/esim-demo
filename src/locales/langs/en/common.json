@@ -1,0 +1,19 @@
+{
+  "dashboard": "Dashboard",
+  "esimProfiles": "eSIM Profiles",
+  "purchases": "Purchases",
+  "usage": "Usage",
+  "packages": "Packages",
+  "billing": "Billing",
+  "settings": "Settings",
+  "list": "List",
+  "table": {
+    "operatorName": "Profile name",
+    "phoneNumber": "Phone number",
+    "status": "Status",
+    "esimtype":"eSIM type",
+    "country":"Country",
+    "number":"Number",
+    "activate":"Activate"
+  }
+}

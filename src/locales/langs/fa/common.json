@@ -1,0 +1,15 @@
+{
+  "dashboard": "داشبورد",
+  "esimProfiles": "پروفایل‌های eSIM",
+  "purchases": "خریدها",
+  "usage": "مصرف",
+  "packages": "بسته‌ها",
+  "billing": "صورتحساب",
+  "settings": "تنظیمات",
+  "list": "لیست",
+  "table": {
+    "operatorName": "نام اپراتور",
+    "phoneNumber": "شماره تلفن",
+    "status": "وضعیت"
+  }
+}
